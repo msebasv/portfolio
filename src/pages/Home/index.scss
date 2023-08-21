@@ -1,0 +1,137 @@
+@use "../../styles/variables" as *;
+
+.container-home {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+
+  @media (min-width: $screen-tablet) {
+    width: 70%;
+  }
+
+  .row {
+    display: flex;
+    width: 100%;
+    text-align: center;
+
+    .container-brand-home {
+      position: relative;
+      width: 18rem;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+
+      @media (min-width: $screen-tablet) {
+        width: 20rem;
+        padding-right: 30px;
+      }
+
+      .home-img {
+        width: 15rem;
+        height: 15rem;
+        overflow: hidden;
+        position: relative;
+        background-image: url("../../assets/img/logo.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        animation: icon-move-people 5s ease-in-out infinite alternate;
+        transition: opacity 0.5s ease;
+
+        @media (min-width: $screen-tablet) {
+          width: 20rem;
+          height: 20rem;
+        }
+
+        &:hover {
+          &:after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url("../../assets/img/goldLogo.png");
+            background-size: cover;
+            opacity: 1;
+            transition: opacity 0.5s ease;
+          }
+        }
+
+        &:after {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background-image: url("../../assets/img/logo.png");
+          background-size: cover;
+          opacity: 0;
+          transition: opacity 0.5s ease transition-delay 0.5s;
+        }
+      }
+
+      .shadow-brand {
+        position: absolute;
+        bottom: -10px;
+        left: 12%;
+        transform: translateX(-50%);
+        width: 75%;
+        height: 20px;
+        border-radius: 50%;
+        background-color: rgba(33, 33, 33, 0.7);
+        animation: shadow-move 5s ease-in-out infinite alternate;
+
+        @media (min-width: $screen-tablet) {
+          left: 5%;
+          width: 90%;
+        }
+      }
+    }
+    @keyframes icon-move-people {
+      0% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(30px);
+      }
+      100% {
+        transform: translateY(0);
+      }
+    }
+
+    @media (min-width: $screen-tablet) {
+      @keyframes icon-move-people {
+        0% {
+          transform: translate3d(0, 0, 0);
+        }
+        100% {
+          transform: translate3d(30px, 30px, 0);
+        }
+      }
+    }
+
+    @keyframes shadow-move {
+      0% {
+        transform: translateY(-5%);
+      }
+      50% {
+        transform: translateY(5%);
+      }
+      100% {
+        transform: translateY(-5%);
+      }
+    }
+
+    @media (min-width: $screen-tablet) {
+      @keyframes shadow-move {
+        0% {
+          transform: translateX(-5%);
+        }
+        100% {
+          transform: translateX(5%);
+        }
+      }
+    }
+  }
+}

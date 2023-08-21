@@ -1,0 +1,28 @@
+@use "./variables" as *;
+
+@font-face {
+  font-family: "Roboto";
+  src: url($font-roboto-regular) format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto Medium";
+  src: url($font-roboto-medium) format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto Bold";
+  src: url($font-roboto-bold) format("truetype");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: $color-white;
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
+    url("../assets/img/backgroundAllPage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}

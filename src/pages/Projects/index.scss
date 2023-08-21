@@ -1,0 +1,10 @@
+@use "../../styles/variables" as *;
+
+.container-projects {
+  text-align: center;
+  width: 95%;
+
+  @media (min-width: $screen-tablet) {
+    width: 85%;
+  }
+}

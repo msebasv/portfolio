@@ -1,0 +1,43 @@
+@use "../../styles/variables" as *;
+
+.modal-generic {
+  .ant-modal-content {
+    background-color: $color-black;
+    border: 1px solid;
+    border-image-slice: 1;
+    border-width: 1px;
+    border-image-source: $color-gold;
+  }
+
+  .ant-modal-body {
+    background-color: $color-black;
+    color: $color-white;
+
+    .image-modal {
+      width: 100%;
+    }
+  }
+
+  .ant-modal-header {
+    background-color: $color-black;
+    color: $color-white;
+    border-bottom: none;
+
+    .ant-modal-title {
+      color: $color-white;
+    }
+  }
+
+  .ant-modal-close-x {
+    color: $color-white;
+  }
+
+  .ant-btn {
+    background: $color-gold;
+    color: $color-black;
+
+    &:hover {
+      color: $color-black;
+    }
+  }
+}

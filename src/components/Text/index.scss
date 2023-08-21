@@ -1,0 +1,23 @@
+@use "../../styles/_variables.scss" as *;
+.container-text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  @media (min-width: $screen-tablet) {
+    padding-left: 40px;
+    text-align: initial;
+  }
+
+  h3 {
+    font-size: $font-xxl;
+    margin-bottom: 0px;
+  }
+
+  .typewriter-container {
+    background: $color-gold;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
