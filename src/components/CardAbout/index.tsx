@@ -1,8 +1,7 @@
 import React from "react";
-import { Card, Row, Col, Button } from "antd";
+import { Card, Row, Col } from "antd";
 import { motion } from "framer-motion";
 import { textAbout } from "../../data/data";
-import People from "../../assets/img/people.png";
 import People1 from "../../assets/img/people1.jpeg";
 import TextTitleSection from "../TextTitleSection";
 import "./index.scss";
@@ -12,7 +11,6 @@ const CardAbout: React.FC = () => {
     <Card className="card-about">
       <Row>
         <Col span={24} lg={12}>
-          {/* <h1>About Me</h1> */}
           <TextTitleSection title="About Me" backTitle="Sobre Mi" />
           {textAbout.map((paragraph, index) => (
             <p key={index}>{paragraph}</p>

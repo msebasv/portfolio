@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { UpOutlined, CaretUpOutlined } from "@ant-design/icons";
+import { CaretUpOutlined } from "@ant-design/icons";
 import "./index.scss";
 
 const ButtonScrollTop: React.FC = () => {

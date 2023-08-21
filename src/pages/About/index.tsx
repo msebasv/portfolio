@@ -1,6 +1,5 @@
 import React from "react";
 import CardAbout from "../../components/CardAbout";
-import TextTitleSection from "../../components/TextTitleSection";
 
 import "./index.scss";
 

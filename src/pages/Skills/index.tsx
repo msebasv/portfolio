@@ -1,6 +1,5 @@
 import React from "react";
 import { Row, Col } from "antd";
-import { CodeOutlined } from "@ant-design/icons";
 import { logoSkills } from "../../data/data";
 import CardSkills from "../../components/CardSkills";
 import TextTitleSection from "../../components/TextTitleSection";

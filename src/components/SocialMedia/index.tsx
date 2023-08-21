@@ -1,6 +1,5 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { GithubOutlined, LinkedinOutlined } from "@ant-design/icons";
 import Github from "../Icons/Github";
 import Linkedin from "../Icons/Linkedin";
 import "./index.scss";
