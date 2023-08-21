@@ -4,7 +4,7 @@ import Layout from "./layouts";
 import Loader from "./components/Loader";
 import "./styles/App.scss";
 
-function App() {
+const App: React.FC = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -14,6 +14,6 @@ function App() {
   }, []);
 
   return <AnimatePresence>{loading ? <Loader /> : <Layout />}</AnimatePresence>;
-}
+};
 
 export default App;
