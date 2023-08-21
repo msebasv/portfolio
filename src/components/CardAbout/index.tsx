@@ -17,7 +17,7 @@ const CardAbout: React.FC = () => {
           ))}
           <motion.a
             whileTap={{ scale: 0.8 }}
-            href="/public/files/CV Sebastian Martinez Velandia.pdf"
+            href="/files/CV Sebastian Martinez Velandia.pdf"
             className="button-about-cv"
             download
           >
