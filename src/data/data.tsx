@@ -23,57 +23,57 @@ export const logoSkills = [
   {
     id: 1,
     title: "React JS",
-    image: "/src/assets/img/technologies/React.png",
+    image: "../assets/img/technologies/React.png",
   },
   {
     id: 2,
     title: "JavaScript",
-    image: "/src/assets/img/technologies/Javascript.png",
+    image: "../assets/img/technologies/Javascript.png",
   },
   {
     id: 3,
     title: "HTML",
-    image: "/src/assets/img/technologies/html.png",
+    image: "../assets/img/technologies/html.png",
   },
   {
     id: 4,
     title: "CSS",
-    image: "/src/assets/img/technologies/Css.png",
+    image: "../assets/img/technologies/Css.png",
   },
   {
     id: 5,
     title: "Python",
-    image: "/src/assets/img/technologies/Python.png",
+    image: "../assets/img/technologies/Python.png",
   },
   {
     id: 6,
     title: "DJango",
-    image: "/src/assets/img/technologies/Django.png",
+    image: "../assets/img/technologies/Django.png",
   },
   {
     id: 7,
     title: "Java",
-    image: "/src/assets/img/technologies/Java.png",
+    image: "../assets/img/technologies/Java.png",
   },
   {
     id: 8,
     title: "Mysql",
-    image: "/src/assets/img/technologies/Mysql.png",
+    image: "../assets/img/technologies/Mysql.png",
   },
   {
     id: 9,
     title: "PostgreSQL",
-    image: "/src/assets/img/technologies/Postgresql.png",
+    image: "../assets/img/technologies/Postgresql.png",
   },
   {
     id: 10,
     title: "Docker",
-    image: "/src/assets/img/technologies/Docker.png",
+    image: "../assets/img/technologies/Docker.png",
   },
   {
     id: 11,
     title: "Sass",
-    image: "/src/assets/img/technologies/Sass.png",
+    image: "../assets/img/technologies/Sass.png",
   },
 ];
 
