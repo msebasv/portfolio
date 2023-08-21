@@ -2,7 +2,7 @@ import React from "react";
 import { Card, Row, Col } from "antd";
 import { motion } from "framer-motion";
 import { textAbout } from "../../data/data";
-import People1 from "../../assets/img/people1.jpeg";
+import People1 from "/public/img/people1.jpeg";
 import TextTitleSection from "../TextTitleSection";
 import "./index.scss";
 

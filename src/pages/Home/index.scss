@@ -31,7 +31,7 @@
         height: 15rem;
         overflow: hidden;
         position: relative;
-        background-image: url("../../assets/img/logo.png");
+        background-image: url("/public/img/logo.png");
         background-size: cover;
         background-repeat: no-repeat;
         animation: icon-move-people 5s ease-in-out infinite alternate;
@@ -50,7 +50,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background-image: url("../../assets/img/goldLogo.png");
+            background-image: url("/public/img/goldLogo.png");
             background-size: cover;
             opacity: 1;
             transition: opacity 0.5s ease;
@@ -64,7 +64,7 @@
           left: 0;
           width: 100%;
           height: 100%;
-          background-image: url("../../assets/img/logo.png");
+          background-image: url("/public/img/logo.png");
           background-size: cover;
           opacity: 0;
           transition: opacity 0.5s ease transition-delay 0.5s;

@@ -16,7 +16,7 @@ main {
         rgba(0, 0, 0, 0.7),
         rgba(0, 0, 0, 0.7)
       ),
-      url("../assets/img/backgroundAllPage.jpg");
+      url("/public/img/backgroundAllPage.jpg");
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -28,7 +28,7 @@ main {
           rgba(0, 0, 0, 0.2),
           rgba(0, 0, 0, 1)
         ),
-        url("../assets/img/backgroundHome.jpg");
+        url("/public/img/backgroundHome.jpg");
       background-repeat: no-repeat;
       background-size: cover;
     }

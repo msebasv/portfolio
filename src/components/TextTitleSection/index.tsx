@@ -1,5 +1,5 @@
 import React from "react";
-import LabelIcon from "../../assets/img/labelIcon.png";
+import LabelIcon from "/public/img/labelIcon.png";
 import "./index.scss";
 
 interface TextTitleSectionProps {

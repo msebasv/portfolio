@@ -23,57 +23,57 @@ export const logoSkills = [
   {
     id: 1,
     title: "React JS",
-    image: "../assets/img/technologies/React.png",
+    image: "/public/img/technologies/React.png",
   },
   {
     id: 2,
     title: "JavaScript",
-    image: "../assets/img/technologies/Javascript.png",
+    image: "/public/img/technologies/Javascript.png",
   },
   {
     id: 3,
     title: "HTML",
-    image: "../assets/img/technologies/html.png",
+    image: "/public/img/technologies/html.png",
   },
   {
     id: 4,
     title: "CSS",
-    image: "../assets/img/technologies/Css.png",
+    image: "/public/img/technologies/Css.png",
   },
   {
     id: 5,
     title: "Python",
-    image: "../assets/img/technologies/Python.png",
+    image: "/public/img/technologies/Python.png",
   },
   {
     id: 6,
     title: "DJango",
-    image: "../assets/img/technologies/Django.png",
+    image: "/public/img/technologies/Django.png",
   },
   {
     id: 7,
     title: "Java",
-    image: "../assets/img/technologies/Java.png",
+    image: "/public/img/technologies/Java.png",
   },
   {
     id: 8,
     title: "Mysql",
-    image: "../assets/img/technologies/Mysql.png",
+    image: "/public/img/technologies/Mysql.png",
   },
   {
     id: 9,
     title: "PostgreSQL",
-    image: "../assets/img/technologies/Postgresql.png",
+    image: "/public/img/technologies/Postgresql.png",
   },
   {
     id: 10,
     title: "Docker",
-    image: "../assets/img/technologies/Docker.png",
+    image: "/public/img/technologies/Docker.png",
   },
   {
     id: 11,
     title: "Sass",
-    image: "../assets/img/technologies/Sass.png",
+    image: "/public/img/technologies/Sass.png",
   },
 ];
 
@@ -83,32 +83,32 @@ export const cardDataProjects = [
     id: 1,
     title: "Portafolio",
     description: "Personal project showcasing my creations and achievements.",
-    image: "../assets/img/portfolio.png",
+    image: "/public/img/portfolio.png",
   },
   {
     id: 2,
     title: "Universidad El Bosque",
     description:
       "University project: Creating a simulation of grades and assessments for El Bosque University platform.",
-    image: "../assets/img/UBosque.png",
+    image: "/public/img/UBosque.png",
   },
   {
     id: 3,
     title: "Curaduría 2",
     description:
       "Project of a pqrsdf system for the company curaduria de bogotá",
-    image: "../assets/img/curaduria.png",
+    image: "/public/img/curaduria.png",
   },
   {
     id: 4,
     title: "Astronauts",
     description: "Information about astronauts and planets",
-    image: "../assets/img/astronauts.png",
+    image: "/public/img/astronauts.png",
   },
   {
     id: 5,
     title: "Spotify",
     description: "Spotify clone using html and css",
-    image: "../assets/img/spotify.png",
+    image: "/public/img/spotify.png",
   },
 ];
