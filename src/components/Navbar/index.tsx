@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
-import LogoWeb from "/public/img/logo.png";
+import LogoWeb from "/assets/logo.png";
 import "./index.scss";
 
 // SPECIFY TYPE OF DATA

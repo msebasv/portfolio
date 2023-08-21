@@ -23,57 +23,57 @@ export const logoSkills = [
   {
     id: 1,
     title: "React JS",
-    image: "/public/img/technologies/React.png",
+    image: "/assets/technologies/React.png",
   },
   {
     id: 2,
     title: "JavaScript",
-    image: "/public/img/technologies/Javascript.png",
+    image: "/assets/technologies/Javascript.png",
   },
   {
     id: 3,
     title: "HTML",
-    image: "/public/img/technologies/html.png",
+    image: "/assets/technologies/html.png",
   },
   {
     id: 4,
     title: "CSS",
-    image: "/public/img/technologies/Css.png",
+    image: "/assets/technologies/Css.png",
   },
   {
     id: 5,
     title: "Python",
-    image: "/public/img/technologies/Python.png",
+    image: "/assets/technologies/Python.png",
   },
   {
     id: 6,
     title: "DJango",
-    image: "/public/img/technologies/Django.png",
+    image: "/assets/technologies/Django.png",
   },
   {
     id: 7,
     title: "Java",
-    image: "/public/img/technologies/Java.png",
+    image: "/assets/technologies/Java.png",
   },
   {
     id: 8,
     title: "Mysql",
-    image: "/public/img/technologies/Mysql.png",
+    image: "/assets/technologies/Mysql.png",
   },
   {
     id: 9,
     title: "PostgreSQL",
-    image: "/public/img/technologies/Postgresql.png",
+    image: "/assets/technologies/Postgresql.png",
   },
   {
     id: 10,
     title: "Docker",
-    image: "/public/img/technologies/Docker.png",
+    image: "/assets/technologies/Docker.png",
   },
   {
     id: 11,
     title: "Sass",
-    image: "/public/img/technologies/Sass.png",
+    image: "/assets/technologies/Sass.png",
   },
 ];
 
@@ -83,32 +83,32 @@ export const cardDataProjects = [
     id: 1,
     title: "Portafolio",
     description: "Personal project showcasing my creations and achievements.",
-    image: "/public/img/portfolio.png",
+    image: "/assets/portfolio.png",
   },
   {
     id: 2,
     title: "Universidad El Bosque",
     description:
       "University project: Creating a simulation of grades and assessments for El Bosque University platform.",
-    image: "/public/img/UBosque.png",
+    image: "/assets/UBosque.png",
   },
   {
     id: 3,
     title: "Curaduría 2",
     description:
       "Project of a pqrsdf system for the company curaduria de bogotá",
-    image: "/public/img/curaduria.png",
+    image: "/assets/curaduria.png",
   },
   {
     id: 4,
     title: "Astronauts",
     description: "Information about astronauts and planets",
-    image: "/public/img/astronauts.png",
+    image: "/assets/astronauts.png",
   },
   {
     id: 5,
     title: "Spotify",
     description: "Spotify clone using html and css",
-    image: "/public/img/spotify.png",
+    image: "/assets/spotify.png",
   },
 ];
