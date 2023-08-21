@@ -83,32 +83,32 @@ export const cardDataProjects = [
     id: 1,
     title: "Portafolio",
     description: "Personal project showcasing my creations and achievements.",
-    image: "/src/assets/img/portfolio.png",
+    image: "../assets/img/portfolio.png",
   },
   {
     id: 2,
     title: "Universidad El Bosque",
     description:
       "University project: Creating a simulation of grades and assessments for El Bosque University platform.",
-    image: "/src/assets/img/UBosque.png",
+    image: "../assets/img/UBosque.png",
   },
   {
     id: 3,
     title: "Curaduría 2",
     description:
       "Project of a pqrsdf system for the company curaduria de bogotá",
-    image: "/src/assets/img/curaduria.png",
+    image: "../assets/img/curaduria.png",
   },
   {
     id: 4,
     title: "Astronauts",
     description: "Information about astronauts and planets",
-    image: "/src/assets/img/astronauts.png",
+    image: "../assets/img/astronauts.png",
   },
   {
     id: 5,
     title: "Spotify",
     description: "Spotify clone using html and css",
-    image: "/src/assets/img/spotify.png",
+    image: "../assets/img/spotify.png",
   },
 ];
